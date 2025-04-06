@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos Lucchetti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #cceeff, #ffffff);
+      padding: 20px;
+    }
+    .producto {
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 15px;
+      margin: 10px 0;
+      background: white;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .formulario {
+      margin-top: 30px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hacé tu pedido Lucchetti</h1>
+  <form id="pedidoForm" class="formulario">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required><br>
+    <label>Dirección:</label>
+    <input type="text" name="direccion" required><br>
+    <div class="productos">
+
+        <div class="producto">
+          <img src="images/Acelga gds.jpg" alt="Acelga gds">
+          <h3>Acelga gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Acelga gds">Cantidad:</label>
+          <input type="number" id="Acelga gds" name="Acelga gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Acelga lucchetti.jpg" alt="Acelga lucchetti">
+          <h3>Acelga lucchetti</h3>
+          <p><strong>Precio: lucchetti</strong></p>
+          <label for="Acelga lucchetti">Cantidad:</label>
+          <input type="number" id="Acelga lucchetti" name="Acelga lucchetti" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Arvejas gds.jpg" alt="Arvejas gds">
+          <h3>Arvejas gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Arvejas gds">Cantidad:</label>
+          <input type="number" id="Arvejas gds" name="Arvejas gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Baston de merluza gds.jpg" alt="Baston de merluza gds">
+          <h3>Baston de merluza gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Baston de merluza gds">Cantidad:</label>
+          <input type="number" id="Baston de merluza gds" name="Baston de merluza gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Brocoli gds.jpg" alt="Brocoli gds">
+          <h3>Brocoli gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Brocoli gds">Cantidad:</label>
+          <input type="number" id="Brocoli gds" name="Brocoli gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Brocoli lucchetti.jpg" alt="Brocoli lucchetti">
+          <h3>Brocoli lucchetti</h3>
+          <p><strong>Precio: lucchetti</strong></p>
+          <label for="Brocoli lucchetti">Cantidad:</label>
+          <input type="number" id="Brocoli lucchetti" name="Brocoli lucchetti" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Choclo gds.jpg" alt="Choclo gds">
+          <h3>Choclo gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Choclo gds">Cantidad:</label>
+          <input type="number" id="Choclo gds" name="Choclo gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Epinaca lucchetti.jpg" alt="Epinaca lucchetti">
+          <h3>Epinaca lucchetti</h3>
+          <p><strong>Precio: lucchetti</strong></p>
+          <label for="Epinaca lucchetti">Cantidad:</label>
+          <input type="number" id="Epinaca lucchetti" name="Epinaca lucchetti" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Espinaca gds.jpg" alt="Espinaca gds">
+          <h3>Espinaca gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Espinaca gds">Cantidad:</label>
+          <input type="number" id="Espinaca gds" name="Espinaca gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Filet de merluza gds.jpg" alt="Filet de merluza gds">
+          <h3>Filet de merluza gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Filet de merluza gds">Cantidad:</label>
+          <input type="number" id="Filet de merluza gds" name="Filet de merluza gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Medallon de merluza gds.jpg" alt="Medallon de merluza gds">
+          <h3>Medallon de merluza gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Medallon de merluza gds">Cantidad:</label>
+          <input type="number" id="Medallon de merluza gds" name="Medallon de merluza gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Medallon de pollo gds.jpg" alt="Medallon de pollo gds">
+          <h3>Medallon de pollo gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Medallon de pollo gds">Cantidad:</label>
+          <input type="number" id="Medallon de pollo gds" name="Medallon de pollo gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa arroz y vegetales gds.jpg" alt="Milanesa arroz y vegetales gds">
+          <h3>Milanesa arroz y vegetales gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Milanesa arroz y vegetales gds">Cantidad:</label>
+          <input type="number" id="Milanesa arroz y vegetales gds" name="Milanesa arroz y vegetales gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa casera gds.jpg" alt="Milanesa casera gds">
+          <h3>Milanesa casera gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Milanesa casera gds">Cantidad:</label>
+          <input type="number" id="Milanesa casera gds" name="Milanesa casera gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa casera grande gds.jpg" alt="Milanesa casera grande gds">
+          <h3>Milanesa casera grande gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Milanesa casera grande gds">Cantidad:</label>
+          <input type="number" id="Milanesa casera grande gds" name="Milanesa casera grande gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa de soja lucchetti 290gr.jpg" alt="Milanesa de soja lucchetti 290gr">
+          <h3>Milanesa de soja lucchetti 290gr</h3>
+          <p><strong>Precio: 290gr</strong></p>
+          <label for="Milanesa de soja lucchetti 290gr">Cantidad:</label>
+          <input type="number" id="Milanesa de soja lucchetti 290gr" name="Milanesa de soja lucchetti 290gr" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa de soja lucchetti 560.jpg" alt="Milanesa de soja lucchetti 560">
+          <h3>Milanesa de soja lucchetti 560</h3>
+          <p><strong>Precio: 560</strong></p>
+          <label for="Milanesa de soja lucchetti 560">Cantidad:</label>
+          <input type="number" id="Milanesa de soja lucchetti 560" name="Milanesa de soja lucchetti 560" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa espinaca gds.jpg" alt="Milanesa espinaca gds">
+          <h3>Milanesa espinaca gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Milanesa espinaca gds">Cantidad:</label>
+          <input type="number" id="Milanesa espinaca gds" name="Milanesa espinaca gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa soja calabaza gds.jpg" alt="Milanesa soja calabaza gds">
+          <h3>Milanesa soja calabaza gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Milanesa soja calabaza gds">Cantidad:</label>
+          <input type="number" id="Milanesa soja calabaza gds" name="Milanesa soja calabaza gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Milanesa soja espinaca.jpg" alt="Milanesa soja espinaca">
+          <h3>Milanesa soja espinaca</h3>
+          <p><strong>Precio: espinaca</strong></p>
+          <label for="Milanesa soja espinaca">Cantidad:</label>
+          <input type="number" id="Milanesa soja espinaca" name="Milanesa soja espinaca" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Nuggets 400gr gds.jpg" alt="Nuggets 400gr gds">
+          <h3>Nuggets 400gr gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Nuggets 400gr gds">Cantidad:</label>
+          <input type="number" id="Nuggets 400gr gds" name="Nuggets 400gr gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Nuggets 900gr gds.jpg" alt="Nuggets 900gr gds">
+          <h3>Nuggets 900gr gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Nuggets 900gr gds">Cantidad:</label>
+          <input type="number" id="Nuggets 900gr gds" name="Nuggets 900gr gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Patitas 1kl gds.jpg" alt="Patitas 1kl gds">
+          <h3>Patitas 1kl gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Patitas 1kl gds">Cantidad:</label>
+          <input type="number" id="Patitas 1kl gds" name="Patitas 1kl gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Patitas 400gr gds.jpg" alt="Patitas 400gr gds">
+          <h3>Patitas 400gr gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Patitas 400gr gds">Cantidad:</label>
+          <input type="number" id="Patitas 400gr gds" name="Patitas 400gr gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Primavera gds.jpg" alt="Primavera gds">
+          <h3>Primavera gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Primavera gds">Cantidad:</label>
+          <input type="number" id="Primavera gds" name="Primavera gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Suprema de pollo gds.jpg" alt="Suprema de pollo gds">
+          <h3>Suprema de pollo gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Suprema de pollo gds">Cantidad:</label>
+          <input type="number" id="Suprema de pollo gds" name="Suprema de pollo gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+        <div class="producto">
+          <img src="images/Suprema espinaca y queso gds.jpg" alt="Suprema espinaca y queso gds">
+          <h3>Suprema espinaca y queso gds</h3>
+          <p><strong>Precio: gds</strong></p>
+          <label for="Suprema espinaca y queso gds">Cantidad:</label>
+          <input type="number" id="Suprema espinaca y queso gds" name="Suprema espinaca y queso gds" min="0" max="99" value="0" style="width: 80px; height: 30px; font-size: 16px;">
+        </div>
+        
+    </div>
+    <br>
+    <button type="submit" style="font-size: 22px; padding: 18px 35px; background-color: #28a745; color: white; border: none; border-radius: 10px;">Pedir por WhatsApp</button>
+  </form>
+  <script>
+    document.getElementById("pedidoForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      let mensaje = "Hola! Quiero hacer el siguiente pedido:%0A";
+      const nombre = this.nombre.value;
+      const direccion = this.direccion.value;
+      mensaje += "Nombre: " + nombre + "%0A";
+      mensaje += "Dirección: " + direccion + "%0A";
+
+      const inputs = this.querySelectorAll("input[type=number]");
+      inputs.forEach(input => {
+        const cantidad = parseInt(input.value);
+        if (cantidad > 0) {
+          mensaje += input.name + ": " + cantidad + "%0A";
+        }
+      });
+
+      const telefono = "01135012333";
+      window.open("https://wa.me/" + telefono + "?text=" + mensaje, "_blank");
+    });
+  </script>
+</body>
+</html>
